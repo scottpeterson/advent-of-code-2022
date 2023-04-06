@@ -19,6 +19,6 @@ fun partTwo(input: List<String>): Int {
 }
 
 fun main() {
-    partOne(readInput("Day03_input"))
-    partTwo(readInput("Day03_input"))
+    partOne(readInput("day03/Day03_input"))
+    partTwo(readInput("day03/Day03_input"))
 }

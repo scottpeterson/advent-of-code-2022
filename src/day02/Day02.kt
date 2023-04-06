@@ -70,7 +70,7 @@ fun main() {
     }
 
 
-    val input = readInput("Day02_input")
+    val input = readInput("day02/Day02_input")
     val newDataStructure = input.map {
         Round(
             opponent = Opponent.valueOf(it.substring(0, 1)),

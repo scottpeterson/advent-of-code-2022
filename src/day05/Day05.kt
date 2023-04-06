@@ -57,6 +57,6 @@ fun main() {
 
     }
 
-    partOne(readInput("Day05_input"))
-    partTwo(readInput("Day05_input"))
+    partOne(readInput("day05/Day05_input"))
+    partTwo(readInput("day05/Day05_input"))
 }

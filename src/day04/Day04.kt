@@ -24,7 +24,7 @@ fun main() {
     fun partOne(input: List<CleaningAssignmentPair>): Int = input.count { it.hasFullOverlap() }
     fun partTwo(input: List<CleaningAssignmentPair>): Int = input.count { it.hasAnyOverlap() }
 
-    val input = readInput("Day04_Input").map(CleaningAssignmentPair::parse)
+    val input = readInput("day04/Day04_Input").map(CleaningAssignmentPair::parse)
 
     println(partOne(input))
     println(partTwo(input))

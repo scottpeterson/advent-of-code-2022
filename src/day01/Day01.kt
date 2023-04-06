@@ -1,6 +1,6 @@
 fun main() {
     fun part1(input: List<String>): Int {
-        val testInput = readInput("Day01_test")
+        val testInput = readInput("/day01/Day01_test")
         var map: MutableMap<Int, Int> = mutableMapOf()
         var key = 1
 
@@ -16,7 +16,7 @@ fun main() {
     }
 
     fun part2(input: List<String>): Int {
-        val testInput = readInput("Day01_test")
+        val testInput = readInput("/day01/Day01_test")
         var map: MutableMap<Int, Int> = mutableMapOf()
         var key = 1
 
@@ -40,7 +40,7 @@ fun main() {
 //    val testInput = readInput("Day01_test")
 //    check(part1(testInput) == 72240)
 //
-    val input = readInput("Day01_test")
+    val input = readInput("/day01/Day01_test")
     println(part1(input))
     println(part2(input))
 }
